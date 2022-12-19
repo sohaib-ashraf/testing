@@ -23,7 +23,12 @@ h2{
 }
     </style>
     <script>
-        window.scrollTo(0, 500);
+        window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
 
     </script>
 </body>
